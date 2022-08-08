@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />  
+  <title>Guest cadastro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="/GUEST/style.css">
+  
+</head>
+
+<body>
+  <header>      
+    
+    <div class="icons_header">
+
+        <div>09:41</div>
+        <div class="icons_triplo">
+          <img class="icons" src="/UTILS/ICONS/signal.svg" alt="icone_sinal">
+          <img class="icons" src="/UTILS/ICONS/wifi.svg" alt="icone_wif">
+          <img class="icons" src="/UTILS/ICONS/battery.svg" alt="icone_bateria">
+        </div>
+        
+    </div>
+</header>
+
+  <img class="imagem" src="/UTILS/ICONS/icone guest.jpeg" alt="logo_guest">
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+     
+    <div class="content">      
+      
+ 
+      <!--FORMULÁRIO DE CADASTRO-->
+      <div id="cadastro">
+        <form method="post" action=""> 
+          <h1>Cadastra-se agora na Guest!</h1> 
+          <h3>Preencha o formulário para continuar</h3>
+        
+        <div class="input_menu">
+
+          <div class="input_group"> 
+            <img class="icons" src="/UTILS/ICONS/profile.svg" alt="icone_perfil">
+            <input class="input" id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+          </div>
+
+          <div class="input_group"> 
+            <img class="icons" src="/UTILS/ICONS/telephone.svg" alt="icone_telefone"> 
+            <input class="input" id="telefone_cad" name="telefome_cad" required="required" type="phone" placeholder="+5581982889431" />
+          </div>
+           
+          <div class="input_group"> 
+            <img class="icons" src="/UTILS/ICONS/email.svg" alt="icone_carta">
+            <input class="input" id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+          </div>
+           
+          <div class="input_group"> 
+            <img class="icons" src="/UTILS/ICONS/locker.svg" alt="icone_cadeado">
+            <input class="input" id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+            <img class="icons" src="/UTILS/ICONS/eye.svg" alt="icone_olho">
+          </div>
+
+          <div class="input_group"> 
+            <img class="icons" src="/UTILS/ICONS/locker.svg" alt="icone_cadeado">
+            <input class="input" id="confirmarsenha_cad" name="confirmarsenha_cad" required="required" type="password" placeholder="ex. 1234"/>
+            <img class="icons" src="/UTILS/ICONS/eye.svg" alt="icone_olho">
+          </div>
+           
+          <button type="submit">Cadastrar</button>
+           
+          <div class="link">  
+            Já tem uma conta?
+            <a href="#paralogin"> Entrar </a>
+          </div>
+
+        </div>
+          
+
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
